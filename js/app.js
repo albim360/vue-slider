@@ -69,4 +69,4 @@ const app = createApp({
   }
 });
 
-app.mount("#carousel");
+app.mount(".carosello");

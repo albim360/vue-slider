@@ -18,7 +18,7 @@
         <h1 class="text-center p-4" style="font-weight: bold;">Carosello Panorami</h1>
         
         <!-- struttura html del carosello -->
-        <div class="carosello" id="carousel">
+        <div class="carosello">
             <div class="carosello__slides">
               <div v-for="(slide, index) in slides" :key="index" class="slide">
                 <div class="slide__content" :class="{'active': index === current}">
