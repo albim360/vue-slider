@@ -48,3 +48,8 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
   } 
+
+  .slide__content {
+    text-align: center;
+    font-weight: bold;
+  }
