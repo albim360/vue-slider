@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slide img {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	object-position: center;
+}
+
+.slide.active {
+	display: block;
+}
+
+.slide {
+	display: none;
+}
+
+.carosello {
+	position: relative;
+}
+
+.carosello .carosello__arrow {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.carosello .carosello__arrow:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+
+.carosello .carosello__arrow.arrow-left {
+	left: 20px;
+}
+
+.carosello .carosello__arrow.arrow-right {
+	right: 20px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  } 
